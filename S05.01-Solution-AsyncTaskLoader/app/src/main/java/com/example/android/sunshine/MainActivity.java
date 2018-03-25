@@ -180,6 +180,7 @@ public class MainActivity extends AppCompatActivity implements
 
                 URL weatherRequestUrl = NetworkUtils.buildUrl(locationQuery);
 
+
                 try {
                     String jsonWeatherResponse = NetworkUtils
                             .getResponseFromHttpUrl(weatherRequestUrl);
