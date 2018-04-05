@@ -24,7 +24,7 @@ import com.example.android.sunshine.data.WeatherContract.WeatherEntry;
 /**
  * Manages a local database for weather data.
  */
-public class WeatherDbHelper extends SQLiteOpenHelper {
+public class  WeatherDbHelper extends SQLiteOpenHelper {
 
     /*
      * This is the name of our database. Database names should be descriptive and end with the

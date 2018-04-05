@@ -88,7 +88,6 @@ public class WeatherDbHelper extends SQLiteOpenHelper {
 
                 WeatherEntry.COLUMN_HUMIDITY   + " REAL, "                    +
                 WeatherEntry.COLUMN_PRESSURE   + " REAL, "                    +
-
                 WeatherEntry.COLUMN_WIND_SPEED + " REAL, "                    +
                 WeatherEntry.COLUMN_DEGREES    + " REAL" + ");";
 
